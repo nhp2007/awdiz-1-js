@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num" type="number" placeholder="type anumber" />
+    <button onclick="driving()">submit</button>
+    
+</body>
+<script>
+     function driving() {
+        const number = document.getElementById("num").value;
+        if (number > 18) {
+            alert("Your eligible for driving licence");
+        } 
+        else if (number == 18){
+            alert("Your eligible for learning licence");
+        }
+        else{
+            alert
+           ( "Your not eligible for driving licence")
+        }
+    }
+</script>
+</html>
